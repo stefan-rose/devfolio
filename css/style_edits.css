@@ -8582,7 +8582,7 @@ label.panel-block:hover {
  }
 }
 .hero.is-primary {
- background-color:#000000;
+ background-image:url(img/trees.jpg);
  color:#fff;
 }
 .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),

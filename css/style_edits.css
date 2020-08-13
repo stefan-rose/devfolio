@@ -8585,7 +8585,7 @@ label.panel-block:hover {
  max-width: 100%;
  min-width: 400px;
  min-height: 60%;
- background-size: cover;
+ background-size: half;
  background-color: #000000;
  color:#fff;
 }

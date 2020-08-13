@@ -8581,10 +8581,12 @@ label.panel-block:hover {
  }
 }
 .hero.is-primary {
- background-image:url(../img/harmony.jpg);
- max-width: 100%;
- min-width: 400px;
- min-height: 70%;
+ background-image:url(../img/trees.jpg);
+  background-position: right center;
+  background-position-x: 35%;
+  background-position-y: 65%;
+ background-size: cover;
+  background-repeat: no-repeat;
  background-color: #000000;
  color:#fff;
 }
@@ -8593,10 +8595,10 @@ label.panel-block:hover {
  color:inherit
 }
 .hero.is-primary .title {
- color:#fff
+ color:#fff;
 }
 .hero.is-primary .subtitle {
- color:hsla(0,0%,100%,.9)
+ color:hsla(0, 0%, 100%, 0.9);
 }
 .hero.is-primary .subtitle a:not(.button),
 .hero.is-primary .subtitle strong {

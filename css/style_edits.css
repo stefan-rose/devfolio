@@ -8584,6 +8584,7 @@ label.panel-block:hover {
  background-image:url(https://www.pebblebeach.com/content/uploads/Lone-Cypress-17Mile-Dr-012113-1-367-1534x1024.jpg);
  max-width: 100%;
  min-width: 400px;
+ min-height: 400px;
  background-size: cover;
  background-color: #000000;
  color:#fff;

@@ -8584,8 +8584,7 @@ label.panel-block:hover {
  background-image:url(../img/harmony.jpg);
  max-width: 100%;
  min-width: 400px;
- min-height: 60%;
- background-size: half;
+ min-height: 70%;
  background-color: #000000;
  color:#fff;
 }

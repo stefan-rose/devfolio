@@ -874,7 +874,7 @@ a.has-text-black:hover {
  background-color:#0a0a0a!important
 }
 .has-text-light {
- color:#f5f5f5!important
+ color:#fff !important;
 }
 a.has-text-light:focus,
 a.has-text-light:hover {
@@ -2788,7 +2788,7 @@ fieldset[disabled] .button {
  display:inline-flex;
  justify-content:center;
  height:1.5rem;
- width:1.5rem
+ width:2.5rem;
 }
 .icon.is-small {
  height:1rem;
@@ -6250,8 +6250,8 @@ html.has-navbar-fixed-bottom {
 }
 .navbar-item .icon:only-child,
 .navbar-link .icon:only-child {
- margin-left:-.25rem;
- margin-right:-.25rem
+ margin-left:1.0rem;
+ margin-right:1.0rem;
 }
 .navbar-link,
 a.navbar-item {
@@ -6271,7 +6271,7 @@ a.navbar-item:hover {
 .navbar-item {
  display:block;
  flex-grow:0;
- flex-shrink:0
+ flex-shrink:0;
 }
 .navbar-item img {
  max-height:1.75rem
@@ -6432,7 +6432,7 @@ a.navbar-item:hover {
   display:flex
  }
  .navbar-item {
-  display:flex
+  display:inline-flex;
  }
  .navbar-item.has-dropdown {
   align-items:stretch

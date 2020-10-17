@@ -3,7 +3,7 @@
 https://flickity.metafizzy.co
 ---------------------------------------------- */
 .flickity-enabled {
- position:relative
+ position:relative;
 }
 .flickity-enabled:focus {
  outline:none
@@ -23,12 +23,12 @@ https://flickity.metafizzy.co
  -webkit-user-select:none;
  -moz-user-select:none;
  -ms-user-select:none;
- user-select:none
+ user-select:none;
 }
 .flickity-enabled.is-draggable .flickity-viewport {
  cursor:move;
  cursor:-webkit-grab;
- cursor:grab
+ cursor:grab;
 }
 .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
  cursor:-webkit-grabbing;
@@ -465,7 +465,7 @@ html {
 *,
 :after,
 :before {
- box-sizing:inherit
+ box-sizing:inherit;
 }
 img,
 video {
@@ -505,7 +505,7 @@ footer,
 header,
 hgroup,
 section {
- display:block
+ display:block;
 }
 body,
 button,
@@ -2628,7 +2628,7 @@ fieldset[disabled] .button {
 .content pre:not(:last-child),
 .content table:not(:last-child),
 .content ul:not(:last-child) {
- margin-bottom:1em
+ margin-bottom:1em;
 }
 .content h1,
 .content h2,
@@ -5535,7 +5535,7 @@ a.list-item {
  -webkit-overflow-scrolling:touch;
  background-color:#fff;
  flex-grow:1;
- flex-shrink:1;
+ /*! flex-shrink:1; */
  overflow:auto;
  padding:20px
 }
